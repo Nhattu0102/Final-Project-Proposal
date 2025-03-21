@@ -1,10 +1,10 @@
 # Final-Project-Proposal
 ## 1. Purpose:
-Dự đoán được yếu tố ảnh hưởng đến học viên từ đó giúp tăng tỷ lệ hoàn thành khóa học của học viên trên nền tảng trựctuyến, đồng thời:
+Dự đoán được yếu tố ảnh hưởng đến học viên từ đó giúp tăng tỷ lệ hoàn thành khóa học của học viên trên nền tảng trực tuyến, đồng thời:
 - Xác định được yếu tố nào ảnh hưởng nhiều, yếu tố nào ảnh hưởng ít.
 - Từ những yếu tố trên đưa ra được các biện pháp nâng cao giúp học viên có hiệu quả hơn khi học trực tuyến.
 ## 2. Expected Outcome:
-Đưa ra được các biện pháp nâng cao giúp học viên có hiệu quả hơn khi học trực tuyến tư đó giúp thu hút thêm nhiều học viên hơn.
+Đưa ra được các biện pháp giúp học viên nâng cao hiệu quả hơn khi học trực tuyến tư đó giúp thu hút thêm nhiều học viên hơn.
 ## 3. Data Overview:
 ### Nguồn: Predict Online Course Engagement Dataset
 https://www.kaggle.com/datasets/rabieelkharoua/predict-online-course-engagement-dataset
@@ -29,4 +29,13 @@ https://www.kaggle.com/datasets/rabieelkharoua/predict-online-course-engagement-
   - _Normalizing data_: **(sklearn)**
   - _Evaluating model performance:_ **(sklearn)**
   - _Working with string data:_ **(io)**
-## 5. 
+## 5. Key Insights Discover:
+### 1. Tác động của các yếu tố đến với khả năng hoàn thành khóa học:
+- Quizzes Taken (Số lượng bài kiểm tra đã làm): Cho thấy rằng việc học viên làm nhiều bài kiểm tra có liên quan chặt chẽ đến việc họ hoàn thành khóa học.
+- Videos Watched (Số video đã xem): Cho thấy rằng việc xem video bài giảng có ảnh hưởng tích cực đến khả năng hoàn thành khóa học.
+- Quizzes Scores (Điểm trung bình các bài kiểm tra): Cho thấy rằng điểm số trong các bài kiểm tra cũng có mối liên hệ với việc hoàn thành khóa học, nhưng không mạnh mẽ bằng số lượng bài kiểm tra đã làm hay số lượng video đã xem.
+- Time Spent (Thời gian học): Cho thấy rằng thời gian học không phải là yếu tố quyết định đến khả năng hoàn thành khóa học.
+### 2.  Tầm quan trọng của việc tương tác và đánh giá:
+Cho thấy rằng việc học viên tương tác với các bài kiểm tra (cả về số lượng và chất lượng) đóng vai trò quan trọng trong việc dự đoán khả năng hoàn thành khóa học. Đồng thời cũng nhấn mạnh tầm quan trọng của việc học viên chủ động tiếp thu kiến thức thông qua video bài giảng.
+### 3.  Thời gian học không phải là yếu tố quyết định:
+Điều này có thể cho thấy rằng chất lượng học tập (thể hiện qua việc làm bài kiểm tra và xem video) quan trọng hơn số lượng thời gian học.
