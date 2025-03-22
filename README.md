@@ -6,9 +6,9 @@ Dự đoán được yếu tố ảnh hưởng đến học viên từ đó giú
 ## 2. Expected Outcome:
 Đưa ra được các biện pháp giúp học viên nâng cao hiệu quả hơn khi học trực tuyến tư đó giúp thu hút thêm nhiều học viên hơn.
 ## 3. Data Overview:
-### Nguồn: Predict Online Course Engagement Dataset
+### Source: Predict Online Course Engagement Dataset
 https://www.kaggle.com/datasets/rabieelkharoua/predict-online-course-engagement-dataset
-### Mô tả:
+### Description:
 - Bộ dữ liệu này thu thập số liệu về mức độ tương tác của người dùng từ nền tảng khóa học trực tuyến, tạo điều kiện phân tích các yếu tố ảnh hưởng đến việc hoàn thành khóa học. Bộ dữ liệu này bao gồm dữ liệu cụ thể về khóa học và số liệu về mức độ tương tác.
 ### Structure:
 - UserID: Mã định danh duy nhất cho mỗi người dùng
