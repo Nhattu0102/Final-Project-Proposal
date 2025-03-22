@@ -30,10 +30,10 @@ https://www.kaggle.com/datasets/rabieelkharoua/predict-online-course-engagement-
   - _Evaluating model performance:_ **(sklearn)**
   - _Working with string data:_ **(io)**
 ## 5. Key Insights Discover:
-## A. Tương quan dương mạnh mẽ giữa các yếu tố liên quan đến hoạt động học tập và hoàn thành khóa học:
+### A. Tương quan dương mạnh mẽ giữa các yếu tố liên quan đến hoạt động học tập và hoàn thành khóa học:
 - Số lượng bài kiểm tra đã làm (NumberOfQuizzesTaken), điểm số bài kiểm tra (QuizScores) và tỷ lệ hoàn thành (CompletionRate) đều có tương quan dương đáng kể với tỷ lệ hoàn thành khóa học (CourseCompletion).
 Điều này cho thấy rằng việc tham gia tích cực vào các hoạt động học tập, làm bài kiểm tra và theo dõi tiến độ học tập có liên quan chặt chẽ đến việc hoàn thành khóa học thành công.
-## B. Tương quan dương giữa thời gian dành cho khóa học, số lượng video đã xem và hoàn thành khóa học:
+### B. Tương quan dương giữa thời gian dành cho khóa học, số lượng video đã xem và hoàn thành khóa học:
 - Thời gian dành cho khóa học (TimeSpentOnCourse) và số lượng video đã xem (NumberOfVideosWatched) cũng có tương quan dương với tỷ lệ hoàn thành khóa học (CourseCompletion), mặc dù mức độ tương quan không mạnh bằng các yếu tố trên. Điều này cho thấy rằng việc dành thời gian cho khóa học và xem video có thể góp phần vào việc hoàn thành khóa học, nhưng có thể không phải là yếu tố quyết định duy nhất.
 ### C. Tương quan âm yếu giữa một số yếu tố:
 - Có một số tương quan âm yếu giữa các yếu tố như số lượng bài kiểm tra đã làm (NumberOfQuizzesTaken), điểm số bài kiểm tra (QuizScores) với thời gian dành cho khóa học (TimeSpentOnCourse) và số lượng video đã xem (NumberOfVideosWatched). Điều này có thể cho thấy rằng học sinh làm nhiều bài kiểm tra hơn hoặc có điểm kiểm tra cao hơn có thể dành ít thời gian hơn cho việc xem lại tài liệu hoặc video. Tuy nhiên, mức độ tương quan yếu cho thấy mối quan hệ này không quá đáng kể.
