@@ -47,7 +47,7 @@ https://www.kaggle.com/datasets/rabieelkharoua/predict-online-course-engagement-
 - Giả thuyết 5: Học sinh xem nhiều video hơn sẽ có tỷ lệ hoàn thành khóa học cao hơn.
 - Giả thuyết 6: Học sinh làm nhiều bài kiểm tra hơn có thể dành ít thời gian hơn cho việc xem lại tài liệu khóa học hoặc video.
 - Giả thuyết 7: Loại thiết bị được sử dụng không ảnh hưởng đáng kể đến kết quả học tập.
-## 7. Recommendations Based on Analysis ResultsD
+## 7. Recommendations Based on Analysis Resultsd
 ### Tập trung vào các yếu tố ảnh hưởng mạnh đến việc hoàn thành khóa học:
 - Khuyến khích học viên làm nhiều bài kiểm tra hơn bằng cách cung cấp các bài kiểm tra thường xuyên, bài kiểm tra thực hành và các hoạt động tương tác.
 - Cung cấp phản hồi chi tiết về bài kiểm tra, tài liệu ôn tập và các buổi hỗ trợ để giúp học viên cải thiện điểm số.
